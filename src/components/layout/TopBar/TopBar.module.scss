@@ -1,0 +1,10 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  margin-bottom: 16px;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
