@@ -1,17 +1,32 @@
-.task_wrapper {
-  display: flex;
-  padding: 6px 0 6px 0;
-  font-weight: 500px;
-
-  .icons {
-    margin-right: 8px;
+.root {
+  a {
+    color: currentColor;
+    text-decoration: none;
   }
-
-  .active {
+  a:hover {
     font-weight: 600;
   }
 
-  .blocked {
+  .isDisabled {
+    pointer-events: none;
     color: grey;
+  }
+
+  .isActive {
+    font-weight: 600;
+  }
+
+  .isCompleted {
+    font-weight: 500;
+  }
+
+  .task_wrapper {
+    display: flex;
+    padding: 6px 0 6px 0;
+    font-weight: 500px;
+
+    .icons {
+      margin-right: 8px;
+    }
   }
 }
