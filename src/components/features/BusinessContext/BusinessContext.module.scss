@@ -5,10 +5,12 @@
   border-radius: $border-radius;
   font-size: 12px;
   font-weight: 500;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
 
   .header_wrapper {
     display: flex;
     padding-left: 50px;
+
     .business_header {
       margin: 0;
       padding: 24px 0 24px 20px;
@@ -26,11 +28,16 @@
   .content {
     display: grid;
     grid-template-columns: 25% 75%;
-    padding: 0 0 75px 5px;
+    padding: 0 0 74px 4px;
     height: 100%;
 
     .left_box {
       background-color: $bg-grey-color;
+      border-radius: 0 0 0 12px;
+    }
+
+    @media screen and (max-width: 776px) {
+      grid-template-columns: 100%;
     }
   }
 }

@@ -1,11 +1,12 @@
 @import '../../../styles/settings.scss';
 
 .root {
-  margin-bottom: 16px;
+  margin: 30px 0;
 
   .wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     .user_avatar {
       border: 1px solid #6b778c;

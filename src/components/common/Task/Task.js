@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './Task.module.scss';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 
-const Task = ({ id, status, name, title }) => {
+const Task = ({ id, status, name, title, businessContext }) => {
+  const { contextId } = useParams();
   return (
     <li className={styles.root}>
       <NavLink
-        to={'/' + id}
+        to={`/${id}/context/${contextId}`}
         className={({ isActive }) =>
           isActive
             ? styles.isActive
