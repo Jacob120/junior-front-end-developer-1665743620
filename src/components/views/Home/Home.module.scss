@@ -3,4 +3,8 @@
   gap: 1.5rem;
   grid-template-columns: 25% 75%;
   height: 90vh;
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 100%;
+  }
 }
