@@ -1,0 +1,39 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  padding: 17px 35px;
+
+  h1 {
+    font-size: 21px;
+    font-weight: 600;
+  }
+  .context_details {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    padding-top: 11px;
+    color: $text-color-grey;
+
+    .avatar {
+      border: 1px solid #d4d6da;
+      border-radius: 50%;
+      padding: 1px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+
+      .header {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        .author {
+          font-size: 16px;
+          color: $text-color-black;
+        }
+      }
+    }
+  }
+}

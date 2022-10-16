@@ -1,0 +1,17 @@
+.task_wrapper {
+  display: flex;
+  padding: 6px 0 6px 0;
+  font-weight: 500px;
+
+  .icons {
+    margin-right: 8px;
+  }
+
+  .active {
+    font-weight: 600;
+  }
+
+  .blocked {
+    color: grey;
+  }
+}
