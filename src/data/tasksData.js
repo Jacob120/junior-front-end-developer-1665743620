@@ -10,7 +10,7 @@ export const tasksData = [
         avatar: 'assets/author-photo.png',
         created_at: new Date('2022-10-03'),
         title: 'New sprint, tasks and intro information. Task 1',
-        status: 'new',
+        status: 'read',
         content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla ut purus pulvinar sagittis. Maecenas fringilla congue arcu sed sodales. Etiam gravida non diam non feugiat. Donec lacinia est nec finibus posuere. Integer convallis sapien at cursus vehicula. Fusce suscipit justo sem, sit amet varius risus tempor non. Sed eleifend finibus mi eget dignissim. Aenean ut fermentum erat. Curabitur a ipsum accumsan, mattis lectus id, lacinia nunc. Ut porta nunc sit amet viverra tempor. Aenean fermentum sapien vel quam varius ultrices. Ut vitae sapien eros. Donec non aliquet leo, eu volutpat ipsum. Duis vel massa magna.',
       },
@@ -20,7 +20,7 @@ export const tasksData = [
         avatar: 'assets/author-photo.png',
         created_at: new Date('2022-10-02'),
         title: 'Application has been accepted',
-        status: 'active',
+        status: 'read',
         content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla ut purus pulvinar sagittis. Maecenas fringilla congue arcu sed sodales. Etiam gravida non diam non feugiat. Donec lacinia est nec finibus posuere. Integer convallis sapien at cursus vehicula. Fusce suscipit justo sem, sit amet varius risus tempor non. Sed eleifend finibus mi eget dignissim. Aenean ut fermentum erat. Curabitur a ipsum accumsan, mattis lectus id, lacinia nunc. Ut porta nunc sit amet viverra tempor. Aenean fermentum sapien vel quam varius ultrices. Ut vitae sapien eros. Donec non aliquet leo, eu volutpat ipsum. Duis vel massa magna.',
       },
@@ -47,7 +47,7 @@ export const tasksData = [
         avatar: 'assets/author-photo.png',
         created_at: new Date('2022-10-05'),
         title: 'New sprint, tasks and intro information. Task 2',
-        status: 'new',
+        status: 'read',
         content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla ut purus pulvinar sagittis. Maecenas fringilla congue arcu sed sodales. Etiam gravida non diam non feugiat. Donec lacinia est nec finibus posuere. Integer convallis sapien at cursus vehicula. Fusce suscipit justo sem, sit amet varius risus tempor non. Sed eleifend finibus mi eget dignissim. Aenean ut fermentum erat. Curabitur a ipsum accumsan, mattis lectus id, lacinia nunc. Ut porta nunc sit amet viverra tempor. Aenean fermentum sapien vel quam varius ultrices. Ut vitae sapien eros. Donec non aliquet leo, eu volutpat ipsum. Duis vel massa magna.',
       },
@@ -57,7 +57,7 @@ export const tasksData = [
         avatar: 'assets/author-photo.png',
         created_at: new Date('2022-10-04'),
         title: 'Application has been accepted',
-        status: 'active',
+        status: 'read',
         content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla ut purus pulvinar sagittis. Maecenas fringilla congue arcu sed sodales. Etiam gravida non diam non feugiat. Donec lacinia est nec finibus posuere. Integer convallis sapien at cursus vehicula. Fusce suscipit justo sem, sit amet varius risus tempor non. Sed eleifend finibus mi eget dignissim. Aenean ut fermentum erat. Curabitur a ipsum accumsan, mattis lectus id, lacinia nunc. Ut porta nunc sit amet viverra tempor. Aenean fermentum sapien vel quam varius ultrices. Ut vitae sapien eros. Donec non aliquet leo, eu volutpat ipsum. Duis vel massa magna.',
       },
@@ -84,7 +84,7 @@ export const tasksData = [
         avatar: 'assets/author-photo.png',
         created_at: new Date('2022-10-11'),
         title: 'New sprint, tasks and intro information. Task 3',
-        status: 'new',
+        status: 'read',
         content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla ut purus pulvinar sagittis. Maecenas fringilla congue arcu sed sodales. Etiam gravida non diam non feugiat. Donec lacinia est nec finibus posuere. Integer convallis sapien at cursus vehicula. Fusce suscipit justo sem, sit amet varius risus tempor non. Sed eleifend finibus mi eget dignissim. Aenean ut fermentum erat. Curabitur a ipsum accumsan, mattis lectus id, lacinia nunc. Ut porta nunc sit amet viverra tempor. Aenean fermentum sapien vel quam varius ultrices. Ut vitae sapien eros. Donec non aliquet leo, eu volutpat ipsum. Duis vel massa magna.',
       },
@@ -94,7 +94,7 @@ export const tasksData = [
         avatar: 'assets/author-photo.png',
         created_at: new Date('2022-10-10'),
         title: 'Application has been accepted',
-        status: 'active',
+        status: 'read',
         content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla ut purus pulvinar sagittis. Maecenas fringilla congue arcu sed sodales. Etiam gravida non diam non feugiat. Donec lacinia est nec finibus posuere. Integer convallis sapien at cursus vehicula. Fusce suscipit justo sem, sit amet varius risus tempor non. Sed eleifend finibus mi eget dignissim. Aenean ut fermentum erat. Curabitur a ipsum accumsan, mattis lectus id, lacinia nunc. Ut porta nunc sit amet viverra tempor. Aenean fermentum sapien vel quam varius ultrices. Ut vitae sapien eros. Donec non aliquet leo, eu volutpat ipsum. Duis vel massa magna.',
       },
@@ -130,7 +130,7 @@ export const tasksData = [
         id: '2',
         avatar: 'assets/author-photo.png',
         created_at: new Date('2022-10-15'),
-        title: 'Application has been accepted',
+        title: 'Application has been accepted 🎉 🙌',
         status: 'active',
         content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla ut purus pulvinar sagittis. Maecenas fringilla congue arcu sed sodales. Etiam gravida non diam non feugiat. Donec lacinia est nec finibus posuere. Integer convallis sapien at cursus vehicula. Fusce suscipit justo sem, sit amet varius risus tempor non. Sed eleifend finibus mi eget dignissim. Aenean ut fermentum erat. Curabitur a ipsum accumsan, mattis lectus id, lacinia nunc. Ut porta nunc sit amet viverra tempor. Aenean fermentum sapien vel quam varius ultrices. Ut vitae sapien eros. Donec non aliquet leo, eu volutpat ipsum. Duis vel massa magna.',
